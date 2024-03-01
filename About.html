@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ITEARN</title>
+    <!----meta---->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------font-family---->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-----fontawsome---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- carousel CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all" />
+    <!----owl carousel assests min css---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!----owl carousel theme css---->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!----bootstrap css---->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!----main css-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="Css/responsive.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+
+
+<body>
+    <!--------------------- Top Bar start------------------------>
+    <div id="topbar" class="d-flex align-items-center fixed-top clearfix">
+        <div class="container d-flex justify-content-between">
+            <div class="contact-info align-items-center">
+                <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">example@gmail.com</a>
+                <i class="fa fa-map-marker" aria-hidden="true"></i><a href="#">GN-28, GN Block, Sector V</a>
+                <i class="fa fa-phone" aria-hidden="true"></i><a href="#">+ (1800) 456 7890</a>
+            </div>
+            <div class="d-none d-lg-flex social-links align-items-center">
+                <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <!------------------------------ Top Bar end ----------------------------->
+
+    <!---------------------- Header start------------------------>
+    <header class="header-page clearfix">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/Main%20LOGO.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" href="About.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ABOUT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item active" href="About.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="#">Our Feature</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Our Process</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                SERVICE
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Service.html">IT Service</a></li>
+                                <li><a class="dropdown-item" href="#">Digital Service</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Product Selling</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Blog.html" class="nav-link">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Contact.html" class="nav-link">CONTACT</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <a href="#" class="search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!------------------- Header end------------------->
+
+    <!------------------------- banner page start------------------------>
+    <section class="banner clearfix">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item banner-about active">
+                    <img src="images/about-slider1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption banner-text-about d-md-block">
+                        <h1>About <span style="color: #0c3eb9">Us</span></h1>
+                        <h6>HOME > ABOUT</h6>
+                        <h3><i>ITEARN</i> Is The Best ITAGENCY</h3>
+                    </div>
+                </div>
+                <div class="carousel-item banner-about">
+                    <img src="images/about-slider2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption banner-text-about d-md-block">
+                        <h1>About <span style="color: #0c3eb9">Us</span></h1>
+                        <h6>HOME > ABOUT</h6>
+                        <h3><i>ITEARN</i> Is The Best ITAGENCY</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!--banner page end-->
+
+
+    <!--it solution start-->
+    <section class="about clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 offset-1" id="about-image">
+                    <img src="images/about1.png" class="img-fluid">
+                </div>
+
+                <div class="col-md-5 offset-1" id="about-text">
+                    <h2>WHO WE ARE</h2>
+                    <h3>More than 23 years
+                        We Provide
+                        <span>IT Solutions</span>
+                    </h3>
+                    <div class="list">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="icon-text">
+                            <h4>24/7 Client Support</h4>
+                            <p>But I must explain to you how all this mis-<br>
+                                taken idea of ncing pleasure and praising<br>
+                                pain was.</p>
+                        </div>
+                    </div>
+
+                    <div class="list1">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-share-alt" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="icon-text">
+                            <h4>What’s Business Goal</h4>
+                            <p>But I must explain to you how all this mis-<br>
+                                taken idea of ncing pleasure and praising<br>
+                                pain was.</p>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">Contact Now <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------it solution end------------------------------>
+
+
+    <!-------------------------facility start-------------------->
+    <section class="facility text-center clearfix">
+        <div class="container">
+            <h3>Our Feature</h3>
+            <h2>Working Company Facility</h2>
+            <div class="row text-start">
+
+                <div class="col-md-4" id="facility-text">
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/facility1.svg">
+                        </div>
+
+                        <div class="box1">
+                            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fac_cont">
+                        <h4>Automated Software</h4>
+                        <p>It is a long stablished fact that are will be distracted by the readabl ent of a page when looking. It is a long stablished fact that are will be distracted by the readabl ent of a page when looking. It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.</p>
+                        <button type="button" class="btn btn-primary1">READ MORE <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4" id="facility-image">
+                    <img src="images/s1.jpg" class="img-fluid">
+                </div>
+
+
+                <div class="col-md-4" id="facility-text">
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/facility2.svg">
+                        </div>
+
+                        <div class="box1">
+                            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fac_cont">
+                        <h4>Marketing Strategy</h4>
+                         <p>It is a long stablished fact that are will be distracted by the readabl ent of a page when looking. It is a long stablished fact that are will be distracted by the readabl ent of a page when looking. It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.</p>
+                        <button type="button" class="btn btn-primary1">READ MORE <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row text-start">
+                <div class="col-md-4" id="facility-image">
+                    <img src="images/s13.jpg" class="img-fluid">
+                </div>
+
+
+                <div class="col-md-4" id="facility-text">
+                    <div class="main-box">
+                        <div class="box">
+                            <img src="images/facility3.svg">
+                        </div>
+
+                        <div class="box1">
+                            <a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="fac_cont">
+                        <h4>Managed IT Services</h4>
+                         <p>It is a long stablished fact that are will be distracted by the readabl ent of a page when looking. It is a long stablished fact that are will be distracted by the readabl ent of a page when looking. It is a long stablished fact that are will be distracted by the readabl ent of a page when looking.</p>
+                        <button type="button" class="btn btn-primary1">READ MORE <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="facility-image">
+                    <img src="images/s14.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------facility end--------------------------->
+
+
+    <!-----------------our process start---------------------------->
+    <section class="our-process text-center clearfix">
+        <div class="container">
+            <h2>Our Process</h2>
+            <h3>Working Company Process</h3>
+            <div class="row text-start">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pr12.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="content">
+                                    <div class="icon1">
+                                        <img src="images/our.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Team Meeting</h5>
+                                        <h6>Marketing Strategy</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pr13.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="content">
+                                    <div class="icon1">
+                                        <img src="images/our4.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Request a Meeting</h5>
+                                        <h6>Business Plan</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pr14.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="card-body">
+
+                                <div class="content">
+                                    <div class="icon1">
+                                        <img src="images/our2.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h5>It Solution</h5>
+                                        <h6>Product Discuses</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="images/pr15.jpg" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <div class="content">
+                                    <div class="icon1">
+                                        <img src="images/our3.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h5>Choose a Service</h5>
+                                        <h6>IT Solution</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------our process end--------------->
+
+
+    <!-------------------------counting start------------------------>
+    <section class="counter-page clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3 col-3">
+                    <div class="counter">
+                        <div class="icon-img">
+                            <img src="images/counting1.svg">
+                        </div>
+                        <div class="counter-text">
+                            <h4 class="acc">17</h4>
+                            <h5>Happy Clients</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-3">
+                    <div class="counter">
+                        <div class="icon-img">
+                            <img src="images/counting2.svg">
+                        </div>
+                        <div class="counter-text">
+                            <h4 class="acc">769</h4>
+                            <span>+</span>
+                            <h5>Projects Complited</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-3">
+                    <div class="counter">
+                        <div class="icon-img">
+                            <img src="images/counting3.svg">
+                        </div>
+                        <div class="counter-text">
+                            <h4 class="acc">85</h4>
+                            <span>+</span>
+                            <h5>Business Partners</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-3">
+                    <div class="counter">
+                        <div class="icon-img">
+                            <img src="images/counting4.svg">
+                        </div>
+                        <div class="counter-text count-up">
+                            <h4 class="acc">5</h4>
+                            <span>+</span>
+                            <h5>Awards Winning</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------counting end------------------->
+
+
+
+    <!-----------------  testimonail start----------------------->
+    <section class="process text-center clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card" id="set">
+                        <div class="card-body" id="set2">
+                            <p class="text-top">He development of reliable and scalable software soluti any OS, browser and device. We bring tog deepin expertise and the latest advan. He development of reliable and scalable software soluti any OS, browser and device. We bring tog deepin expertise and the latest advan.</p>
+                            <div class="total-box">
+                                <div class="item-box1">
+                                    <img src="images/te1.png" class="img-fluid">
+                                </div>
+                                <div class="item-box2">
+                                    <h6>Chicana males <span class="text-color">/ CEO & Founder</span></h6>
+                                    <nav class="star">
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-6">
+                    <div class="card" id="set">
+                        <div class="card-body" id="set2">
+                            <p class="text-top">He development of reliable and scalable software soluti any OS, browser and device. We bring tog deepin expertise and the latest advan. He development of reliable and scalable software soluti any OS, browser and device. We bring tog deepin expertise and the latest advan.</p>
+                            <div class="total-box">
+                                <div class="item-box1">
+                                    <img src="images/te2.png" class="img-fluid">
+                                </div>
+                                <div class="item-box2">
+                                    <h6>Abbie Ferguson <span class="text-color">/ Development</span></h6>
+                                    <nav class="star">
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i></a>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-----------------testimonail end----------------->
+
+
+
+
+
+
+
+
+
+
+    <!------------------ footer page start------------>
+    <footer class="footer-page clearfix">
+        <div class="container">
+            <div class="row f-page-bottom-padding">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="widget widgets-company-info">
+                        <div class="footer-bottom-logo pb-40">
+                            <img src="images/Main%20LOGO.png" alt="" />
+                        </div>
+                        <div class="company-info-desc">
+                            <p>There are many variations of passages of Lorem
+                                Ipsum available, but the majority have suffered
+                                alteration in some form, by injected humour,
+                                or randomised words which don't look even
+                                slightly believable.
+                            </p>
+                        </div>
+                        <div class="follow-company-info pt-3">
+                            <div class="follow-company-text mr-3">
+                                <a href="#">
+                                    <p>Follow Us :</p>
+                                </a>
+                            </div>
+                            <div class="follow-company-icon">
+                                <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#" class="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="#" class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="#" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="#" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="widget widget-nav-menu">
+                        <h4 class="widget-title pb-4" style="margin-left: 30px">Our Services</h4>
+                        <div class="menu-quick-link-container ml-4">
+                            <ul id="menu-quick-link" class="menu">
+                                <li><a href="#">Marketing Strategy</a></li>
+                                <li><a href="#">Web Design</a></li>
+                                <li><a href="#">Digital Services</a></li>
+                                <li><a href="#">Product Design</a></li>
+                                <li><a href="#">Social Marketing</a></li>
+                                <li><a href="#">Product Selling</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="widget widgets-company-info">
+                        <h3 class="widget-title pb-4">Company Address</h3>
+                        <div class="company-info-desc-p">
+                            <p>The standard chunk of Lorem Ipsum
+                                used since the 1500s is reproduced
+                                below for those interested.
+                            </p>
+                        </div>
+                        <div class="footer-social-info">
+                            <p><span style="margin-right: 15px"><i class="fa fa-map-marker" aria-hidden="true"></i></span>GN-28, GN Block, Sector V</p>
+                        </div>
+                        <div class="footer-social-info">
+                            <p><span style="margin-right: 10px"><i class="fa fa-envelope" aria-hidden="true"></i></span>example@gmail.com</p>
+                        </div>
+                        <div class="footer-social-info">
+                            <p><span style="margin-right: 13px"><i class="fa fa-phone" aria-hidden="true"></i></span>+ (1800) 456 7890</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="widget widget-nav-menu">
+                        <h4 class="widget-title pb-4" style="margin-left: 30px">Useful Links</h4>
+                        <div class="menu-quick-link-container ml-4">
+                            <ul id="menu-quick-link" class="menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bottom mt-70 pt-3 pb-1">
+                <div class="col-lg-12 col-md-12">
+                    <div class="footer-bottom-content">
+                        <div class="footer-bottom-content-copy">
+                            <p>© 2022 ITEARN. All Rights Reserved <span style="margin: 0 10px">|</span> <span style="font-style: italic"> Powered by - Ejob India Student Team</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--------------- footer page end -------------->
+
+
+    <!-----js Bundle----->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <!-- jquery -->
+    <script type="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!----0. jquery cdn start---->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!----1. owl carousel min js---->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 20,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                767: {
+                    items: 2
+                },
+                991: {
+                    items: 3
+                },
+                600: {
+                    items: 3
+                },
+                575: {
+                    items: 1
+                },
+                761: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+
+
+        // about counter
+        $(".acc").each(function() {
+            $(this)
+                .prop("Counter", 0)
+                .animate({
+                    Counter: $(this).text()
+                }, {
+
+                    duration: 4000,
+                    easing: "swing",
+                    step: function(now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+        });
+
+    </script>
+
+</body>
+
+</html>
